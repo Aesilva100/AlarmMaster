@@ -1,0 +1,66 @@
+/* registrarse.component.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  position: relative;
+  width: 560px; /* Ancho */
+  height: 649px; /* Alto */
+  margin-top: 187px; /* Margen superior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+mat-card {
+  margin-top: 20px;
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-checkbox {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+/* Estilos específicos de color */
+button.cancel-button {
+  color: #fff;
+  background-color: #b92f43; /* Rojo */
+  width: 144px;
+  height: 38px;
+}
+
+button.register-button {
+  color: #fff;
+  background-color: #014ba0; /* Azul */
+  width: 145px;
+  height: 40px;
+}
+

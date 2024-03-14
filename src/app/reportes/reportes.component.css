@@ -1,0 +1,168 @@
+body {
+    background-color: #f2f2f2;
+    height: calc(100vh - 75px);
+    width: 1440px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar {
+    background-color: #2174D4;
+    height: 75px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  .nav-button {
+    background-color: #2174D4; /* Color azul para el botón de Inicio */
+    color: white;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 0 15px; /* Ajuste del espaciado horizontal */
+  }
+  
+  .nav-button-blue {
+    background-color: #014BA0;
+    color: white;
+    width: 145px;
+    height: 40px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+  }
+  
+  .main-container {
+    background-color: #f2f2f2;
+    width: 95%;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  .work-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .frame {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+  
+  .share-button,
+  .delete-button {
+    background-color: #014BA0;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-right: 5px;
+  }
+  .large-frame {
+    width: 1319px;
+    height: 750px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    align-items: flex-start; /* Alinea los subframes hacia arriba */
+    justify-content: space-between;
+  }
+  .large-frame h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px; /* Tamaño de fuente 24 para "Grupos de trabajo" */
+    font-weight: normal; /* Peso de fuente normal */
+  }
+  
+  .frame h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px; /* Tamaño de fuente 20 para "Grupo de trabajo 1" */
+    font-weight: normal; /* Peso de fuente normal */
+  }
+
+  /* registrarse.component.css */
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register-form {
+  position: relative;
+  width: 560px; /* Ancho */
+  height: 649px; /* Alto */
+  margin-top: 187px; /* Margen superior */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  line-height: 16px;
+  letter-spacing: 0%;
+}
+
+mat-card {
+  margin-top: 20px;
+  width: 100%;
+}
+
+mat-form-field {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+mat-checkbox {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+button {
+  margin-right: 10px;
+}
+
+/* Estilos específicos de color */
+button.cancel-button {
+  color: #fff;
+  background-color: #b92f43; /* Rojo */
+  width: 144px;
+  height: 38px;
+}
+
+button.register-button {
+  color: #fff;
+  background-color: #014ba0; /* Azul */
+  width: 145px;
+  height: 40px;
+}
